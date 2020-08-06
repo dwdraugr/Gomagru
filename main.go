@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	Init()
 	auth.GetHandler()
 	http.ListenAndServe(":4000", nil)
 }

@@ -8,16 +8,17 @@ func GetHandler() {
 	http.HandleFunc("/auth/login", LoginPage)
 }
 
-func LoginPage(res http.ResponseWriter, req *http.Request)  {
-	res.Write([]byte(""))
+func LoginPage(res http.ResponseWriter, req *http.Request) {
+	res.Write([]byte("BIIIIIIIIIIIIBA"))
+	res.WriteHeader(http.StatusOK)
 }
 
-func RegistrationPage()  {
+func RegistrationPage() {
 
 }
 
-func ForgottenPasswordPage()  {
-	
+func ForgottenPasswordPage() {
+
 }
 
 func PasswordResetPage() {
@@ -25,17 +26,17 @@ func PasswordResetPage() {
 }
 
 func Login() {
-	
+
 }
 
 func Registration() {
-	
+
 }
 
-func ForgottenPassword()  {
-	
+func ForgottenPassword() {
+
 }
 
-func PasswordReset()  {
-	
+func PasswordReset() {
+
 }
